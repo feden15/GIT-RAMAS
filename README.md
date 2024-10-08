@@ -65,7 +65,7 @@ git switch - # Me muevo entre las últimas dos ramas que estuve
 ## Comparar entre los últimos commits de las ramas
 
 ```sh
-git duff <nombre-rama> # Comparo la rama actual contra la que le indiqué
+git diff <nombre-rama> # Comparo la rama actual contra la que le indiqué
 ```
 
 ## Ver las ramas locales y remotas
