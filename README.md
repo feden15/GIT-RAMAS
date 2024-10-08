@@ -34,9 +34,15 @@ git config --global alias.l "log --oneline"
 # Acorta "git log --oneline" a solo "git l"
 ```
 
-## Ver las diferencias entre el Working Directory (WD)
+## Ver las diferencias entre el Working Directory (WD) y el Local Repo (LR)
 
 ```sh
 git diff
+```
+
+## Ver el contenido de cada commit
+
+```sh
+git show <número-hash>
 ```
 
