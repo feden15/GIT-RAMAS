@@ -85,8 +85,8 @@ git switch main
 git merge feature/ramas
 ```
 
-* Fusion -> Fast-foward -> git hace la fusión automáticamente
-* Fusión -> con estrategia -> git hace la fusión automáticamente
+* Fusion -> Fast-foward -> git hace la fusión automáticamente (no genera commit extra)
+* Fusión -> con estrategia -> git hace la fusión automáticamente (genera un commit extra, para solucionar la situación que podría ser un conflicto)
 * Fusión -> con conflicto -> git no puede fusionar automáticamente, entonces nos va a pedir ayuda a nosotros
 
 ## Abortar la fusión
