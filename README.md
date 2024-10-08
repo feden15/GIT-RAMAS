@@ -73,3 +73,18 @@ git duff <nombre-rama> # Comparo la rama actual contra la que le indiqué
 ```sh
 git branch -a # Me muestra las ramas locales y remotas
 ```
+
+## Fusionar una rama al main
+
+```sh
+git merge <nombre-rama-que-quiero-fusionar-a-main>
+# Estando parado en main, indico el nombre de la rama que quiero traer
+```
+
+```sh
+# Un ejemplo de lo anterior
+git switch main
+git merge feature/ramas
+```
+
+* Fusion -> Fast-foward -> git hace la fusión automáticamente
