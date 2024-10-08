@@ -88,3 +88,10 @@ git merge feature/ramas
 ```
 
 * Fusion -> Fast-foward -> git hace la fusión automáticamente
+
+## Borrar una rama
+
+```sh
+git branch -d <nombre-rama> # Se borra automáticamente, si la rama ya estaba fusionada
+git branch -D <nombre-rama> #Confirmo el borrado de la rama, si la rama no estaba fusionada
+```
