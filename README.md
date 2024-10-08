@@ -79,9 +79,7 @@ git branch -a # Me muestra las ramas locales y remotas
 ```sh
 git merge <nombre-rama-que-quiero-fusionar-a-main>
 # Estando parado en main, indico el nombre de la rama que quiero traer
-```
 
-```sh
 # Un ejemplo de lo anterior
 git switch main
 git merge feature/ramas
