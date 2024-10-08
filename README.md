@@ -86,3 +86,10 @@ git merge feature/ramas
 ```
 
 * Fusion -> Fast-foward -> git hace la fusión automáticamente
+* Fusión -> con conflicto -> git no puede fusionar automáticamente, entonces nos va a pedir ayuda a nosotros
+
+## Abortar la fusión
+
+```sh
+git merge --abort
+```
