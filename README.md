@@ -59,4 +59,6 @@ git switch -c <nombre-rama> # Crea una rama y nos mueve a la rama que creamos
 ```sh
 git switch <nombre-rama> # Me muevo a la rama que nombro
 git switch feature/ramas # Un ejemmplo de lo anterior
+git switch - # Me muevo entre las últimas dos ramas que estuve
 ```
+
