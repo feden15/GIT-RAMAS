@@ -89,12 +89,12 @@ git merge feature/ramas
 * Fusión -> con estrategia -> git hace la fusión automáticamente (genera un commit extra, para solucionar la situación que podría ser un conflicto)
 * Fusión -> con conflicto -> git no puede fusionar automáticamente, entonces nos va a pedir ayuda a nosotros
 
+
 ## Abortar la fusión
 
 ```sh
 git merge --abort
 ```
-
 
 ## Borrar una rama
 
